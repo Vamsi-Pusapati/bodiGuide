@@ -1,0 +1,50 @@
+/* PatientProfilePage.module.css */
+
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #e6e6e6;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .mainContent {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .profileCard {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profileImage {
+    background-color: #cccccc;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+  }
+  

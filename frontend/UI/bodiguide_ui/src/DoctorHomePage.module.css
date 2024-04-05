@@ -1,0 +1,75 @@
+/* DoctorHomePage.module.css */
+.container {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .header {
+    background-color: #f8f8f8; /* Light grey background */
+    border-bottom: 1px solid #e7e7e7; /* Light grey border for a subtle bottom line */
+    padding: 10px 20px; /* Top and bottom padding of 10px and left and right padding of 20px */
+    text-align: center; /* Center the text */
+    /* Add other styles as needed, like font size, weight, etc. */
+  }
+  
+  .name{
+    text-transform: capitalize;
+  }
+  
+
+  .mainContent {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* More styles as needed */
+  }
+  
+  .patientsList {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 70%;
+    /* More styles as needed */
+  }
+  
+  .sidebar {
+    width: 25%;
+    /* More styles as needed */
+  }
+  
+  .patientCount, .doctorProfile {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    /* More styles as needed */
+  }
+  
+  .patientNumber {
+    display: block;
+    font-size: 2em;
+    /* More styles as needed */
+  }
+  
+  .profilePic {
+    background-image: url('/path-to-doctor-profile-pic.jpg'); /* Replace with actual path */
+    background-size: cover;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+  }
+  
+  /* Add responsive adjustments */
+  @media (max-width: 768px) {
+    .mainContent {
+      flex-direction: column;
+    }
+  
+    .patientsList, .sidebar {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  

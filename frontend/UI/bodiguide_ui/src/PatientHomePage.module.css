@@ -1,0 +1,80 @@
+/* PatientHomePage.module.css */
+.container {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .header {
+    background-color: #f8f8f8; /* Light grey background */
+    border-bottom: 1px solid #e7e7e7; /* Light grey border for a subtle bottom line */
+    padding: 40px 40px; /* Top and bottom padding of 10px and left and right padding of 20px */
+    text-align: center; /* Center the text */
+    /* Add other styles as needed, like font size, weight, etc. */
+  }
+  
+  .mainContent {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    text-align: center;
+    width: 75%; /* Adjust based on your design */
+  }
+  
+  .cardImage {
+    width: 100%; /* Adjust based on your design */
+    height: auto;
+    border-radius: 8px; /* Optional for rounded corners on images */
+  }
+  
+  .profile {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 45%; /* Adjust based on your design */
+  }
+  
+  .profilePic {
+    background-image: url('/path-to-profile-pic.jpg'); /* Replace with actual path */
+    background-size: cover;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+  }
+  
+  /* Add responsive adjustments */
+  @media (max-width: 768px) {
+    .mainContent {
+      flex-direction: column;
+    }
+  
+    .card, .profile {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  /* PatientHomePage.module.css */
+
+/* ... other styles ... */
+
+.viewProfileLink {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff; /* Example color */
+  cursor: pointer;
+}
+
+.viewProfileLink:hover {
+  text-decoration: underline;
+}
+
+  
